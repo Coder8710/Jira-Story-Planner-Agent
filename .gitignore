@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cert
+credentials*
+token*
+
+# Python environments and caches
+jira_agent_venv/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and local runtime output
+*.log
+logs/
+*.tmp
+*.temp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,9 @@
+langchain-aws==0.2.34
+langchain-core==0.3.80
+langchain-mcp-adapters==0.1.9
+langchain-openai==0.3.35
+langgraph==0.6.6
+boto3==1.40.15
+botocore==1.40.15
+python-dotenv==1.1.1
+streamlit>=1.36,<2
